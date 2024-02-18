@@ -1,9 +1,14 @@
-import React from 'react'
+import Header from './components/Header'
 
 export default function App() {
   return (
     <div>
-      home
+      <header><Header /></header>
+      <section>Hero</section>
+      <section>About</section>
+      <section>Tech Stack</section>
+      <section>Projects</section>
+      <footer></footer>
     </div>
   )
 }

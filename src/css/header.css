@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap');
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.header-img {
+  height: 44px;
+  aspect-ratio: 1.8;
+  margin-left: 28px;
+
+}
+
+.navBar {
+  margin-top: 20px;
+}
+
+.navBar a {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 24px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.navBar a:hover {
+  color: #4d4de1;
+}
+
+.contact_btn {
+  cursor: pointer;
+  padding: 12px 28px;
+  border: none;
+  margin-right: 28px;
+  background: #4d4de1;
+  border-radius: 5px;
+}
