@@ -10,6 +10,7 @@ import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 
 
 export const FloatingNav = () => {
+  console.log("'dddd")
   const navItems = [
     {
       name: "Home",
@@ -43,35 +44,39 @@ export const FloatingNav = () => {
     }
   });
   return (
-    <AnimatePresence>
-      <motion.div
-        initial={{
-          opacity: 1,
-          y: 10
-        }}
-        animate={{
-          y: visible ? 10 : -100,
-          opacity: visible ? 1 : 0,
-        }}
-        transition={{
-          duration: 0.2,
-        }}
-        className="floatingNav"
-      >
-        {navItems.map((navItem, idx) => (
-          <div
-            onClick={() => window.scrollTo({ top: navItem.link, behavior: 'smooth' })}
-            key={idx}
-            href={navItem.link}
-            className="navItems"
-          >
-            <span>{navItem.icon}</span>
+    <div className="phone">
 
-          </div>
-        ))}
 
-      </motion.div>
-    </AnimatePresence>
+      <AnimatePresence>
+        <motion.div
+          initial={{
+            opacity: 1,
+            y: 10
+          }}
+          animate={{
+            y: visible ? 10 : -100,
+            opacity: visible ? 1 : 0,
+          }}
+          transition={{
+            duration: 0.2,
+          }}
+          className="floatingNav"
+        >
+          {navItems.map((navItem, idx) => (
+            <div
+              onClick={() => window.scrollTo({ top: navItem.link, behavior: 'smooth' })}
+              key={idx}
+              href={navItem.link}
+              className="navItems"
+            >
+              <span>{navItem.icon}</span>
+
+            </div>
+          ))}
+
+        </motion.div>
+      </AnimatePresence>
+    </div>
   );
 };
 

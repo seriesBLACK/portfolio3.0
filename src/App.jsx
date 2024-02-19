@@ -1,24 +1,19 @@
 import Header from './components/Header'
 import { FloatingNav } from './components/FloatingNav';
+import Hero from './sections/Hero';
 
 export default function App() {
 
   return (
     <div>
-      <header>
-        {window.innerWidth >= 750 ? (<Header />) : (
-          <div className='phone'>
 
-            <FloatingNav />
-          </div>
-        )}
-
-      </header>
-      <section>Hero</section>
-      <section>About</section>
+      {window.innerWidth >= 750 ? (<Header />) : (<FloatingNav />)}
+      <Hero />
+      {/* <section>About</section>
       <section>Tech Stack</section>
       <section>Projects</section>
-      <footer></footer>
+      <footer></footer> */}
+
     </div>
   )
 }
