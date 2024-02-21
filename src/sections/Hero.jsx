@@ -53,24 +53,18 @@ export default function Hero() {
         >
           <motion.h2 variants={textVariants}>AW talal</motion.h2>
           <motion.h1 variants={textVariants}>FRONT-END Web developer</motion.h1>
-          <p>Minimum price websites that work</p>
+          <p className=" font-mono text-xl">Minimum price websites that work</p>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
               See the Latest Works
             </motion.button>
             <motion.button variants={textVariants}>Contact Me</motion.button>
           </motion.div>
-          {/* <motion.img
-            variants={textVariants}
-            animate="scrollButton"
-            src={scroll}
-            alt="scroll img"
-          /> */}
         </motion.div>
       </div>
       <motion.div
         className="slidingTextContainer"
-        variants={sliderVariants}
+        // variants={sliderVariants}
         initial="initial"
         animate="animate"
       >

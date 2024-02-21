@@ -11,7 +11,7 @@ export default function Header() {
         <a className="anker" href="">Tech Stack /</a>
         <a className="anker" href="">Projects</a>
       </nav>
-      <div className="flex gap-3 mr-8">
+      <div className="flex items-start gap-3 mr-8">
         <IconBrandFacebook className=" cursor-pointer hover:scale-110 rounded-full bg-blue-700 w-9 h-9 p-1" />
         <IconBrandGithub className=" cursor-pointer hover:scale-110 rounded-full bg-black w-9 h-9 p-1" />
         <IconBrandWhatsapp className=" cursor-pointer hover:scale-110 rounded-full bg-green-700 w-9 h-9 p-1" />

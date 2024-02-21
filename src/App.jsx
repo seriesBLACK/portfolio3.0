@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import { FloatingNav } from './components/FloatingNav';
 import Hero from './sections/Hero';
+import About from './sections/About';
 
 export default function App() {
 
@@ -9,8 +10,8 @@ export default function App() {
 
       {window.innerWidth >= 750 ? (<Header />) : (<FloatingNav />)}
       <Hero />
-      {/* <section>About</section>
-      <section>Tech Stack</section>
+      <About />
+      {/* <section>Tech Stack</section>
       <section>Projects</section>
       <footer></footer> */}
 
