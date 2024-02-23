@@ -68,7 +68,17 @@ export default function About() {
 
           className="bg-[#8b4513] flex flex-col justify-center shadow-[3px_3px_3px_0px_rgba(109,40,217)] rounded-lg col-end-2">
           <h2 className="font-bold text-3xl max-sm:text-2lg m-5">Take a look at some noteworthy projects</h2>
-          <img className="mx-auto w-[59px]" src={scroll} alt="" />
+          <motion.img
+            animate={{
+              y: 10,
+
+              transition: {
+                duration: 1.5,
+                repeat: Infinity
+              }
+            }}
+
+            className="mx-auto w-[59px]" src={scroll} alt="" />
         </motion.div>
       </motion.div>
     </section>
