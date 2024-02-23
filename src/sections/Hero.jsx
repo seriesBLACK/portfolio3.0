@@ -1,5 +1,4 @@
 import "../css/hero.scss";
-import scroll from "/imgs/scroll.png"
 import hero from "/imgs/hero.png"
 import { motion } from "framer-motion"
 
@@ -53,7 +52,7 @@ export default function Hero() {
         >
           <motion.h2 variants={textVariants}>AW talal</motion.h2>
           <motion.h1 variants={textVariants}>FRONT-END Web developer</motion.h1>
-          <p className=" font-mono text-xl">Minimum price websites that work</p>
+          <p className="text-xl font-[Melodrama-Bold]">Minimum price websites that work</p>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
               See the Latest Works
@@ -68,7 +67,7 @@ export default function Hero() {
         initial="initial"
         animate="animate"
       >
-        Writer Content Creator Influencer
+        Write Creat Influence
       </motion.div>
       <div className="imageContainer">
         <img src={hero} alt="" />
