@@ -16,51 +16,63 @@ export default function TechStack() {
   const cards = [
 
     {
+      id: 1,
       image: js,
       name: "Java Script",
     },
 
     {
+      id: 2,
       image: next,
       name: "Next Js",
     },
     {
+      id: 3,
       image: python,
       name: "Python",
     },
     {
+      id: 4,
       image: _react,
       name: "React",
     },
     {
+      id: 5,
       image: flask,
       name: "",
     },
     {
+      id: 6,
       image: redux,
       name: "",
     },
     {
+      id: 7,
       image: mongondb,
       name: "",
     },
     {
+      id: 8,
       image: firebase,
       name: "Firebase",
     },
     {
+      id: 9,
       image: node,
       name: "NodeJs",
     },
     {
+      id: 10,
       image: html,
       name: "Html",
     },
     {
+      id: 11,
       image: css,
       name: "Css",
     },
     {
+      id: 12,
       image: tailwind,
       name: "Tailwind",
     },
@@ -77,7 +89,7 @@ export default function TechStack() {
 
       <div className="card_coantiner">
         {cards.map((card) => (
-          <div key={cards.name} className="card">
+          <div key={card.id} className="card">
             <img src={card.image} alt="techImage" />
             <h3>{card.name}</h3>
           </div>

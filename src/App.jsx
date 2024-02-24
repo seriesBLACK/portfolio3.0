@@ -2,8 +2,8 @@ import Header from './components/Header'
 import { FloatingNav } from './components/FloatingNav';
 import Hero from './sections/Hero';
 import About from './sections/About';
-// import ProjectsSec from './sections/ProjectsSec';
 import TechStack from './sections/TechStack';
+import Projects from './sections/Projects';
 
 export default function App() {
 
@@ -14,7 +14,7 @@ export default function App() {
       <Hero />
       <About />
       <TechStack />
-      {/* <ProjectsSec /> */}
+      <Projects />
       {/* <section>Tech Stack</section>
       <section>Projects</section>
       <footer></footer> */}
