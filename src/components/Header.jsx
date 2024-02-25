@@ -7,9 +7,9 @@ export default function Header() {
     <header className="header">
       <img src={aw} alt="logo" className="header-img" />
       <nav className="navBar">
-        <a className="anker" href="">About/</a>
-        <a className="anker" href="">Tech Stack /</a>
-        <a className="anker" href="">Projects</a>
+        <a className="anker" href="about">About/</a>
+        <a className="anker" href="#tech">Tech Stack /</a>
+        <a className="anker" href="#projects">Projects</a>
       </nav>
       <div className="flex items-start gap-3 mr-8">
         <IconBrandFacebook className=" cursor-pointer hover:scale-110 rounded-full bg-blue-700 w-9 h-9 p-1" />

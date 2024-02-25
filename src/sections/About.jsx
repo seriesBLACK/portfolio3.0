@@ -21,7 +21,7 @@ export default function About() {
   // }
 
   return (
-    <section className="w-full h-[100vh] bg-gradient-to-b from-[#111132] to-[#0c0c1d] flex flex-col items-center justify-center">
+    <section id="about" className="w-full h-[100vh] bg-gradient-to-b from-[#111132] to-[#0c0c1d] flex flex-col items-center justify-center">
       <h1 className="font-[Melodrama-Bold] text-[3rem]">About</h1>
       <motion.div ref={ref} id="aboutSec" className="size-[75%] grid grid-cols-3 gap-4">
         <motion.div id="first-col" initial={{
