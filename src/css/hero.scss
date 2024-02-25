@@ -31,24 +31,13 @@
         text-align: center;
       }
 
-      h2 {
-        font-size: 30px;
-        color: rebeccapurple;
-        letter-spacing: 3px;
-        font-family: "Melodrama-Bold";
-      }
-
       h1 {
-        font-size: 77px;
+        font-size: 80px;
         letter-spacing: -2px;
+        font-family: "Plus Jakarta Sans";
 
         @include mobile {
           font-size: 35px;
-        }
-
-        p {
-
-          letter-spacing: 3px;
         }
       }
 
@@ -57,10 +46,11 @@
 
         button {
           padding: 20px;
-          border: 1px solid white;
+          border: 1px solid #f97316;
           border-radius: 10px;
           background-color: transparent;
           color: white;
+          font-family: "Plus Jakarta Sans";
           margin-right: 20px;
           cursor: pointer;
           font-weight: 300;

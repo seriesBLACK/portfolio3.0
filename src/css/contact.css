@@ -1,4 +1,21 @@
 #contact_header {
   font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  #contactSec {
+    flex-direction: column;
+  }
+
+  #contactTextContainer {
+    width: 100%;
+    height: 40%;
+  }
+
+  #contactFormContainer {
+    width: 100%;
+    height: 50%;
+  }
+
 
 }

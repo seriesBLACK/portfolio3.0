@@ -12,18 +12,11 @@ export default function Hero() {
       x: 0,
       opacity: 1,
       transition: {
-        duration: 1,
+        duration: 0.5,
         staggerChildren: 0.1,
       },
     },
-    scrollButton: {
-      opacity: 0,
-      y: 10,
-      transition: {
-        duration: 2,
-        repeat: Infinity,
-      },
-    },
+
   };
   const sliderVariants = {
     initial: {
@@ -50,9 +43,9 @@ export default function Hero() {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>AW talal</motion.h2>
-          <motion.h1 variants={textVariants}>FRONT-END Web developer</motion.h1>
-          <p className="text-xl font-[Melodrama-Bold]">Minimum price websites that work</p>
+          <motion.h2 variants={textVariants}></motion.h2>
+          <motion.h1 variants={textVariants}>Font-end Web developer</motion.h1>
+          <p className="text-xl text-[#4G3R95]">Develope a minimum price websites that work</p>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
               See the Latest Works
