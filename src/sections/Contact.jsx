@@ -116,7 +116,7 @@ const Contact = () => {
           <textarea className="bg-transparent border-[1px] border-white rounded-lg p-2" rows={4} placeholder="Message" name="message" />
           <button className="bg-orange-500 p-5 max-sm:p-2 max-sm:text-sm border-none rounded-lg text-xl cursor-pointer">Send</button>
           {error && "Error"}
-          {success && "Success"}
+          {success && "Message Sent"}
         </motion.form>
       </div>
 
