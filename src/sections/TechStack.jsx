@@ -80,7 +80,7 @@ export default function TechStack() {
 
 
   return (
-    <section className='w-full h-[100vh] bg-gradient-to-b from-[#0c0c1d] to-[#111132]'>
+    <section id="tech" className='w-full h-[100vh] bg-gradient-to-b from-[#0c0c1d] to-[#111132]'>
       <h1 className='text-center font-[Melodrama-Bold] text-[4rem] max-sm:text-[2rem]'>Tech Stack</h1>
       <div className="flex justify-start items-center">
         <div className='w-[20%] h-[1px] bg-[#545050] max-sm:hidden'></div>

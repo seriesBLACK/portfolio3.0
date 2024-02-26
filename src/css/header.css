@@ -61,7 +61,6 @@
 }
 
 .floatingNav {
-  z-index: 5;
   display: flex;
   position: fixed;
   gap: 18px;
@@ -69,15 +68,13 @@
   padding: 1rem 2rem;
   justify-content: center;
   align-items: center;
-  border-radius: 9px;
+  border-radius: 80px;
   max-width: fit-content;
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(33, 37, 114) 0px 0px 0px 3px;
+  background-color: lightcoral;
+  filter: blur(1px);
 }
 
-.navItems {
-  z-index: 5;
-}
+
 
 @media (max-width: 750px) {
   .header>*:not(.header-img) {

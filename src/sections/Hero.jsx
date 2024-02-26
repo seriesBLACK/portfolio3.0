@@ -35,7 +35,7 @@ export default function Hero() {
   return (
 
 
-    <section className="hero">
+    <section id="hero" className="hero">
       <div className="wrapper">
         <motion.div
           className="textContainer"
@@ -47,10 +47,11 @@ export default function Hero() {
           <motion.h1 variants={textVariants}>Font-end Web developer</motion.h1>
           <p className="text-xl text-[#4G3R95]">Develope a minimum price websites that work</p>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-              See the Latest Works
-            </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+
+
+            <a href="#projects"><motion.button variants={textVariants}>See the Latest Works</motion.button></a>
+            <a href="#contactSec"><motion.button variants={textVariants}>Contact Me</motion.button></a>
+
           </motion.div>
         </motion.div>
       </div>

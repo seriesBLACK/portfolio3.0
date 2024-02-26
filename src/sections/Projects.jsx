@@ -14,16 +14,16 @@ const items = [
     id: 1,
     title: "Eureka",
     img: eureka,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Eureka is a real estate website for selling and buying or renting houses, you can list you'r own house with all the details and change it or delete later while using firebase's fast database for storaing  all the data.",
     link: "https://eureka-bice.vercel.app/",
     icon: [<IconBrandFirebase className="h-10 w-10 stroke-[0.5px] mr-1" />, "Firebase", <IconBrandReact className="h-10 w-10 stroke-[0.5px] ml-4 mr-1" />, "React"],
     git: "https://github.com/seriesBLACK/Eureka-Real-Estate",
   },
   {
     id: 2,
-    title: "twitter-clone",
+    title: "X /twitter-clone",
     img: twitter,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "I took this project as a chalange for my dedication and perseverance it took alot of time and effort but at the end it was all worth it, I've learned a lot through the making of this website such as posting, editing, and deleteing post while keeping users credentials and routing save.",
     link: "https://twitter-clone-gigrv6a15-seriesblack.vercel.app/",
     icon: [<IconBrandNextjs className="h-10 w-10 stroke-[0.5px] mr-1" />, "Next.js", <IconBrandFirebase className="h-10 w-10 stroke-[0.5px] ml-4 mr-1" />, "Firebase", <IconBrandTailwind className="h-10 w-10 stroke-[0.5px] ml-4 mr-1 fill-current" />, "TailwindCss"],
     git: "https://github.com/seriesBLACK/twitter-clone",
@@ -41,7 +41,7 @@ const items = [
     id: 4,
     title: "YT Mate",
     img: ytmate,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "YT Mate is a web-app for downloading videos from diffrent websites, while useing vanilla js in the front-end and python yt-dlp library at the back-end. this app Is'nt 100% legal and it has been blocked buy some hosting providers but It's fine to use in such small scale",
     git: "https://github.com/seriesBLACK/YtMate",
     link: "https://ytmate.onrender.com",
     icon: [<IconBrandPython className="h-10 w-10 stroke-[0.5px] mr-1" />, "Python", <IconBrandJavascript className="h-10 w-10 stroke-[0.5px] mr-1 ml-4" />, "JavaScript"]
@@ -58,7 +58,7 @@ const Single = ({ item }) => {
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
 
   return (
-    <section className="w-full">
+    <section id="projects" className="w-full">
       <div className="container">
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>
