@@ -2,6 +2,7 @@
   #aboutSec {
     height: 100vh;
     width: 95%;
+    gap: 2;
   }
 
   #first-col {

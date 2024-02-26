@@ -57,7 +57,7 @@ export default function Hero() {
       </div>
       <motion.div
         className="slidingTextContainer"
-        // variants={sliderVariants}
+        variants={sliderVariants}
         initial="initial"
         animate="animate"
       >
