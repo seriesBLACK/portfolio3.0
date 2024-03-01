@@ -1,6 +1,6 @@
 @media screen and (max-width: 500px) {
   #aboutSec {
-    height: 100vh;
+    height: 100svh;
     width: 95%;
     gap: 2;
   }

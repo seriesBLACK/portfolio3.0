@@ -24,9 +24,9 @@ export default function About() {
           }}
           className="bg-black shadow-[5px_5px_0px_0px_rgba(109,40,217)] rounded-lg col-start-1 col-span-2 max-sm:h-[259px]">
           <h2 id="first-col-h2" className="font-bold text-3xl max-sm:text-2lg m-5">About me:</h2>
-          <p id="first-col-p" className="font-mono max-sm:text-sm m-5">I&apos;m Abd ul Walee Talal a 23 years old junior graduate from Unversity of Aden with a mechatronics bachelor degree based in Yemen/Aden,
+          <p id="first-col-p" className="font-mono max-sm:text-sm m-5">I&apos;m Abd ul Walee Talal a 23 years old junior graduate from University  of Aden with a mechatronics bachelor degree based in Yemen/Aden,
             I started codeing four years ago when I knew that I can get all the data from a website without having to go trough all of It&apos;s pages, so I started with python for easy scraping, and that was the start of my journey !
-            I injoyed coding and It become a hobby and from then I kept learning more and more skills.
+            I enjoyed  coding and It become a hobby and from then I kept learning more and more skills.
           </p>
         </motion.div>
         <motion.div
