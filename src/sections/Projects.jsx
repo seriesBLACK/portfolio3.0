@@ -46,6 +46,16 @@ const items = [
     link: "https://ytmate.onrender.com",
     icon: [<IconBrandPython className="h-10 w-10 stroke-[0.5px] mr-1" />, "Python", <IconBrandJavascript className="h-10 w-10 stroke-[0.5px] mr-1 ml-4" />, "JavaScript"]
   },
+
+  {
+    id: 5,
+    title: "Aden Blog",
+    img: ytmate,
+    desc: "YT Mate is a web-app for downloading videos from diffrent websites, while useing vanilla js in the front-end and python yt-dlp library at the back-end. this app Is'nt 100% legal and it has been blocked buy some hosting providers but It's fine to use in such small scale",
+    git: "https://github.com/seriesBLACK/mern-blog",
+    link: "https://mern-blog-jzvr.onrender.com",
+    icon: [<IconBrandPython className="h-10 w-10 stroke-[0.5px] mr-1" />, "Python", <IconBrandJavascript className="h-10 w-10 stroke-[0.5px] mr-1 ml-4" />, "JavaScript"]
+  },
 ];
 
 const Single = ({ item }) => {

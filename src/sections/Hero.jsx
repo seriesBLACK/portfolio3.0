@@ -45,14 +45,14 @@ export default function Hero() {
         >
           <motion.h2 variants={textVariants}></motion.h2>
           <motion.h1 variants={textVariants}>Font-end Web developer</motion.h1>
-          <p className="text-xl text-[#4G3R95]">Develope a minimum price websites that work</p>
+          <p className="text-xl text-gray-500">Develope a minimum price websites that work</p>
+
           <motion.div variants={textVariants} className="buttons">
-
-
             <a href="#projects"><motion.button variants={textVariants}>See the Latest Works</motion.button></a>
             <a href="#contactSec"><motion.button variants={textVariants}>Contact Me</motion.button></a>
-
           </motion.div>
+
+
         </motion.div>
       </div>
       <motion.div
