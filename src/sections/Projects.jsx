@@ -5,11 +5,20 @@ import eureka from "/imgs/Eureka.png";
 import twitter from "/imgs/twitter.png";
 import mern from "/imgs/mern.png";
 import ytmate from "/imgs/ytmate.png";
+import medad from "/imgs/medad.png"
 import { IconBrandReact, IconBrandFirebase, IconBrandNextjs, IconBrandTailwind, IconBrandGithub, IconBrandMongodb, IconBrandNodejs, IconEmphasis, IconBrandPython, IconBrandJavascript } from "@tabler/icons-react"
 
 
 
 const items = [
+  {
+    id: 6,
+    title: "Medad",
+    img: medad,
+    desc: "A local store for printing cards, BellBoards and advertising products on social media",
+    link: "https://medad-sand.vercel.app/",
+    icon: [<IconBrandReact className="h-10 w-10 stroke-[0.5px] ml-4 mr-1" />, "React", <IconBrandTailwind className="h-10 w-10 stroke-[0.5px] ml-4 mr-1 fill-current" />, "TailwindCss"],
+  },
   {
     id: 1,
     title: "Eureka",

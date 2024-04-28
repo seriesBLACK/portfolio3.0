@@ -10,8 +10,8 @@ export default function App() {
 
   return (
     <>
-
-      {window.innerWidth >= 750 ? (<Header />) : (<FloatingNav />)}
+      <Header />
+      {window.innerWidth >= 750 ? ('') : (<FloatingNav />)}
       <Hero />
       <About />
       <TechStack />
