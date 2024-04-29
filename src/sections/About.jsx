@@ -24,9 +24,7 @@ export default function About() {
           }}
           className="bg-black shadow-[5px_5px_0px_0px_rgba(109,40,217)] rounded-lg col-start-1 col-span-2 max-sm:h-[259px]">
           <h2 id="first-col-h2" className="font-bold text-3xl max-sm:text-2lg m-5">About me:</h2>
-          <p id="first-col-p" className="font-mono max-sm:text-sm m-5">I&apos;m Abd ul Walee Talal a 23 years old junior graduate from University  of Aden with a mechatronics bachelor degree based in Yemen/Aden,
-            I started codeing four years ago when I knew that I can get all the data from a website without having to go trough all of It&apos;s pages, so I started with python for easy scraping, and that was the start of my journey !
-            I enjoyed  coding and It become a hobby and from then I kept learning more and more skills.
+          <p id="first-col-p" className="font-mono max-sm:text-sm m-5">I&apos;m Abd ul Walee Talal,a passionate web-developer based in Yemen/Aden with a bachelor's degree in information technology.
           </p>
         </motion.div>
         <motion.div
@@ -43,10 +41,8 @@ export default function About() {
           }}
           className="bg-[#ffffffa6] shadow-[3px_3px_3px_3px_rgba(109,40,217)] rounded-lg row-span-2">
           <h2 id="second-col-h2" className="font-bold text-3xl max-sm:text-lg m-5 text-black">What I can do:</h2>
-          <p id="second-col-p" className="font-mono m-5 text-black max-sm:text-sg">well I can do alot of things, mainly making websites. I can make a website with react, nextjs or even vanilla js as fast as possible.
-            or for a modren websites mren-stach is the way to go now a days nothing that I can&apos;t do. I can help you with an existing website or making one from the ground up all for the least price you can find. <br />
-            "make it work, make it right, make it fast".
-
+          <p id="second-col-p" className="font-mono m-5 text-black max-sm:text-sg">
+            I can make or design user interfaces for an app, website, or other interactive media. I can work alone or collaborate with a team and other engineers to get the job done.
           </p>
 
         </motion.div>
