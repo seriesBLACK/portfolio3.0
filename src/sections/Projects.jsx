@@ -6,11 +6,21 @@ import twitter from "/imgs/twitter.png";
 import mern from "/imgs/mern.png";
 import ytmate from "/imgs/ytmate.png";
 import medad from "/imgs/medad.png"
+import athkah from "/imgs/athkah.png"
 import { IconBrandReact, IconBrandFirebase, IconBrandNextjs, IconBrandTailwind, IconBrandGithub, IconBrandMongodb, IconBrandNodejs, IconEmphasis, IconBrandPython, IconBrandJavascript } from "@tabler/icons-react"
 
 
 
 const items = [
+  {
+    id: 7,
+    title: "Athkah",
+    img: athkah,
+    desc: "A travel agency that provides travel and tourism-related services to the general public.",
+    link: "https://athkah.vercel.app/",
+    icon: [<IconBrandNextjs className="h-10 w-10 stroke-[0.5px] mr-1" />, "NextJs ", <IconBrandFirebase className="h-10 w-10 stroke-[0.5px] mr-1 ml-4" />, "Firebase", <IconBrandTailwind className="h-10 w-10 stroke-[0.5px] ml-4 mr-1 fill-current" />, "TailwindCss"],
+    git: "https://github.com/seriesBLACK/athkah",
+  },
   {
     id: 6,
     title: "Medad",
