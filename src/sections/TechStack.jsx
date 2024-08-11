@@ -11,6 +11,7 @@ import redux from "/imgs/redux.png";
 import firebase from "/imgs/firebase.png";
 import tailwind from "/imgs/tailwind.png";
 import next from "/imgs/next.svg";
+import laravel from "/imgs/laravel.png";
 
 export default function TechStack() {
   const cards = [
@@ -20,17 +21,22 @@ export default function TechStack() {
       image: js,
       name: "Java Script",
     },
-
-    {
-      id: 2,
-      image: next,
-      name: "Next Js",
-    },
     {
       id: 3,
       image: python,
       name: "Python",
     },
+    {
+      id: 6,
+      image: laravel,
+      name: "Laravel",
+    },
+    {
+      id: 2,
+      image: next,
+      name: "Next Js",
+    },
+
     {
       id: 4,
       image: _react,
@@ -39,11 +45,6 @@ export default function TechStack() {
     {
       id: 5,
       image: flask,
-      name: "",
-    },
-    {
-      id: 6,
-      image: redux,
       name: "",
     },
     {

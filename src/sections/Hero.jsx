@@ -44,7 +44,7 @@ export default function Hero() {
           animate="animate"
         >
           <motion.h2 variants={textVariants}></motion.h2>
-          <motion.h1 variants={textVariants}>Font-end Web developer</motion.h1>
+          <motion.h1 variants={textVariants}>Full-Stack Web developer</motion.h1>
           <p className="text-xl text-gray-500">Develope a minimum price websites that work</p>
 
           <motion.div variants={textVariants} className="buttons">
