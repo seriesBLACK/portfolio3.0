@@ -50,6 +50,7 @@ export default function Hero() {
           <motion.div variants={textVariants} className="buttons">
             <a href="#projects"><motion.button variants={textVariants}>See the Latest Works</motion.button></a>
             <a href="#contactSec"><motion.button variants={textVariants}>Contact Me</motion.button></a>
+            <a href="/AbdUlWaleeTalalResume.pdf" download="AbdUlWaleeTalalResume.pdf"><motion.button variants={textVariants}>Download my CV</motion.button></a>
           </motion.div>
 
 
